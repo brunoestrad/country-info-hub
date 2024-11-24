@@ -1,0 +1,18 @@
+:root{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.080);
+}
+
+body{
+  margin: 0;
+}
+
+header{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: hsla(228, 100%, 13%, 0.85);
+  margin: 0;
+  padding: 1px 1px 1px 40px;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.3);
+}

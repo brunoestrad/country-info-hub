@@ -1,0 +1,126 @@
+body{
+  margin:0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:80vh;
+  flex-direction: column;
+}
+
+/*select-country*/
+.select-country{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 5px 10px 10px 10px hsla(202, 28%, 37%, 0.175);
+  min-width: 400px;
+  width: auto;
+  height: auto;
+  min-height: 300px;
+  text-align: center;
+  background-color: white;
+}
+
+.label{
+  margin: 10px;
+}
+
+.select-country h1{
+  margin: 0  0 50px;
+}
+
+select{
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  border-color: rgba(183, 183, 183, 0.8);
+}
+
+select:hover{
+  background-color: hsla(0, 0%, 0%, 0.05);
+}
+
+button[type="submit"]{
+  margin: 10px 0;
+  border: none;
+  background-color:hsl(228, 98%, 20%);
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover{
+  background-color:hsla(228, 98%, 20%, 0.85);
+  cursor: pointer;
+}
+
+img{
+  width: 100%;
+  max-width: 500px;
+}
+
+/*country-info page*/
+.country-info{
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px 10px hsla(202, 28%, 37%, 0.175);
+  min-width: 400px;
+  width: auto;
+  height: auto;
+  background-color: white;
+}
+
+.country-info .title{
+  margin: 20px 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.population{
+  margin: 15px;
+}
+.currency{
+  margin: 15px;
+}
+.capital{
+  margin: 15px 15px 0;
+}
+.cities{
+  margin: 0 15px;
+}
+.select-cities{
+  margin-left: 10px;
+  width: fit-content;
+}
+
+.population:hover, .capital:hover, .currency:hover, .cities:hover{
+  color: hsla(0, 0%, 0%, 0.65);
+  cursor: pointer;
+}
+
+.return{
+  align-self: flex-start;
+  margin: 20px;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  font-size: 0.8rem;
+  padding: 10px 20px;
+  border-radius: 30px;
+  width: fit-content;
+}
+
+.return:hover{
+  cursor: pointer;
+  box-shadow: 3px 3px 10px hsla(0, 0%, 0%, 0.3);
+}
