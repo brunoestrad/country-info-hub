@@ -8,7 +8,6 @@ function CountrySelect (){
     // Initialize states
     const [countriesData, setCountriesData] = useState();
     const [selectedCountry, setSelectedCountry] = useState(null);
-    const [selectedCountryISO2, setSelectedCountryISO2] = useState(null);
     const [error, setError] = useState(null);
 
     // Fetch all countries data
